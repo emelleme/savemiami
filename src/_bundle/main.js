@@ -24,7 +24,7 @@ window.addEventListener('alpine:initializing', () => {
     toggle() { return this.isOpen = !this.isOpen }
   })
   Alpine.store('messages',[
-    "Click here to save the world.",
+    "Click here to save Miami.",
     "Saved.",
     "Well that was easy.",
     "You can leave now.",
