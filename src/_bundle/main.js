@@ -25,12 +25,11 @@ window.addEventListener('alpine:initializing', () => {
   })
   Alpine.store('messages',[
     "Click here to save Miami.",
-    "Saved.",
+    "Saved. click to view reward.",
+    "You are the reward",
     "Well that was easy.",
-    "You can leave now.",
-    "Seriously.",
-    "stop clicking.",
-    "you've done your part.",
-    "now leave me alone"
+    "j/k. you ready?",
+    "Seriously?",
+    "ok. LFG!!!."
   ])
 });
