@@ -13,8 +13,10 @@ export async function onRequestGet(context) {
     } = context;
     const url = params.path?.join('/') ?? ''
     // console.log(url)
-    return handleRequest(url);
-    
+    // return handleRequest(url);
+    const destinationURL = LINK_TO;
+    const statusCode = 301;
+    return Response.redirect(destinationURL, statusCode);
     //try asset cdn
     
     // return env.ASSETS.fetch(request);
