@@ -30,6 +30,6 @@ window.addEventListener('alpine:initializing', () => {
     "Well that was easy.",
     "j/k. you ready?",
     "Seriously?",
-    "ok. LFG!!!."
+    "ok. LFG!!!"
   ])
 });
